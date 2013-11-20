@@ -1,7 +1,7 @@
 {
   "name": "true",
   "version": "0.0.1",
-  "description": "Returns the Boolean value `true`",
+  "description": "A JavaScript port of the Unix utility 'true'. Returns the Boolean value `true`",
   "main": "index.js",
   "scripts": {
     "test": "jake test"
