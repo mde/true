@@ -1,6 +1,6 @@
 {
   "name": "true",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Returns the Boolean value `true`",
   "main": "index.js",
   "scripts": {
