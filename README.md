@@ -1,5 +1,7 @@
 ## true
 
+[![Build Status](https://travis-ci.org/mde/true.png)](https://travis-ci.org/mde/true)
+
 A JavaScript port of the Unix utility 'true'. Returns the Boolean value `true`
 
 ### Overview
