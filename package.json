@@ -3,6 +3,9 @@
   "version": "0.0.2",
   "description": "A JavaScript port of the Unix utility 'true'. Returns the Boolean value `true`",
   "main": "index.js",
+  "bin": {
+    "true": "true.js"
+  },
   "scripts": {
     "test": "jake test"
   },
