@@ -27,6 +27,16 @@ Boolean value `true`:
 console.log(myTrueValue === true); // Logs 'true'
 ```
 
+### CLI
+
+If you install `true` globally, you can call it appropriately as a CLI command:
+
+```bash
+$ npm install true -g
+```
+
+You will likely have to use `sudo` to install it globally.
+
 ### Tests
 
 Running the tests requires the [Jake JavaScript build
