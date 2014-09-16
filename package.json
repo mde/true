@@ -4,7 +4,7 @@
   "description": "A JavaScript port of the Unix utility 'true'. Returns the Boolean value `true`",
   "main": "index.js",
   "bin": {
-    "true": "true.js"
+    "true": "bin/cli.js"
   },
   "scripts": {
     "test": "jake test"
