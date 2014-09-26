@@ -2,9 +2,14 @@
 
 var t = require('../index')
 
-if (t()) {
-  process.exit(0);
-}
-else {
+try {
+  if (t()) {
+      process.exit(0);
+  } else {
+      throw new Error('true is not true');
+  }
+} catch (err) {
+  console.log(err.message);
+  console.log(err.stack);
   process.exit(1);
 }
