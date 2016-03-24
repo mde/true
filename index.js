@@ -1,4 +1,6 @@
+var boolean = require('boolean')
+
 module.exports = function aJavaScriptPortOfTheUnixUtilityTrueReturnsTheBooleanValueTrue () {
-  return true;
+  return boolean(true);
 };
 
