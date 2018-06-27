@@ -6,6 +6,10 @@
   "bin": {
     "true": "bin/cli.js"
   },
+  "files": [
+    "bin",
+    "index.js"
+  ],
   "scripts": {
     "test": "jake test"
   },
