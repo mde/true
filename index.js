@@ -1,5 +1,5 @@
 module.exports = function aJavaScriptPortOfTheUnixUtilityTrueReturnsTheBooleanValueTrue () {
-  return function (undefined) {
-    return !undefined
+  return function (undefined, anotherUndefined) {
+    return undefined === anotherUndefined;
   }();
 };
