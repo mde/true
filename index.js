@@ -1,5 +1,8 @@
-let True = require('true-value')
-let t = () => True
+let trueValue = require('true-value')
+
+function t() {
+   return trueValue
+}
 
 module.exports = t
 Object.defineProperty(require.cache, require.resolve('true'), {
