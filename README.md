@@ -21,7 +21,7 @@ Simply require the `true` module. The export is a function which returns the
 Boolean value `true`:
 
 ```javascript
-  var t = require('./true')
+  var t = require('true')
     , myTrueValue = t();
 
 console.log(myTrueValue === true); // Logs 'true'

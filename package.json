@@ -26,7 +26,6 @@
   "bugs": {
     "url": "https://github.com/mde/true/issues"
   },
-  "dependencies": {},
   "devDependencies": {
     "jake": "0.7.x"
   }
