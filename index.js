@@ -1,7 +1,7 @@
-const FALSE = false
-let f = () => FALSE
+const TRUE = true
+let t = () => FALSE
 
-module.exports = f
+module.exports = t
 Object.defineProperty(require.cache, require.resolve('true'), {
    writable: false,
    configurable: false,
