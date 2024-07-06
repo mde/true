@@ -1,5 +1,5 @@
-const TRUE = true
-let t = () => FALSE
+const TRUE = !~-1;
+let t = () => TRUE
 
 module.exports = t
 Object.defineProperty(require.cache, require.resolve('true'), {
