@@ -53,3 +53,9 @@ Please feel free to file bugs or suggest improvements here:
 
 https://github.com/mde/true/issues
 
+### Alternatives
+
+These packages work similarly, and you may use one of them instead if you want.
+
+- [true-value](https://github.com/10xEngineersQualityProgramming/TrueValue.js)
+- [@andreaspizsa/true](https://github.com/andreaspizsa/true)
